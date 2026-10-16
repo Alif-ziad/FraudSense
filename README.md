@@ -1,38 +1,94 @@
+<div align="center">
+
 # FraudSense
+### Fraud-Detection Product Concept & UI Prototype
 
-FraudSense is an **AI fraud-detection platform concept and UI prototype** designed around monitoring suspicious activity, reviewing alerts, and supporting user/admin fraud-management workflows.
+![Status](https://img.shields.io/badge/status-UI%20prototype-d29922?style=flat-square)
+![Scope](https://img.shields.io/badge/public%20repo-front--end%20package-blue?style=flat-square)
+![Academic](https://img.shields.io/badge/type-academic%20project-6e7681?style=flat-square)
 
-## Current public repository scope
+</div>
 
-This repository currently contains the packaged front-end prototype:
+FraudSense is a fraud-detection platform concept centered on suspicious-activity monitoring, alert review, investigation, dispute handling, and user/administrator workflows.
+
+The **current public GitHub repository contains the packaged UI prototype only**. It should be evaluated as a product/interface demonstration rather than as a deployed fraud-detection system.
+
+## What is currently published
+
+```text
+.
+├── README.md
+└── UI-Fraudsense.zip
+```
+
+`UI-Fraudsense.zip` contains the packaged interface prototype used for the public demonstration.
+
+## Run the prototype
+
+1. Clone or download this repository.
+2. Extract:
 
 ```text
 UI-Fraudsense.zip
 ```
 
-The AI model, backend services, APIs, and production fraud-detection pipeline are **not currently published in this repository**. This README intentionally distinguishes the implemented public prototype from the broader project concept.
+3. Open the extracted `index.html` in a web browser.
+4. If the prototype layout appears larger than the browser viewport, use a fit-to-screen/zoom setting appropriate for your display.
 
-## Run the UI prototype
+## Product concept
 
-1. Download or clone the repository.
-2. Extract `UI-Fraudsense.zip`.
-3. Open the extracted `index.html` in a browser.
-4. Use a fit-to-screen browser view if needed for the intended prototype layout.
+The broader FraudSense concept is designed around interfaces/workflows for:
 
-## Intended platform capabilities
-
-The project concept includes interfaces for:
-
-- Fraud/suspicious-activity monitoring
+- Suspicious-activity and fraud monitoring
 - User and administrator views
 - Alert investigation
+- Fraud-case review
 - Dispute and resolution workflows
-- Behavioral/ML-assisted fraud detection
+- Behavioral/ML-assisted fraud detection concepts
 
-## Status
+These bullets describe the **intended product direction**. They do not imply that every backend/ML capability is implemented in the files currently published here.
 
-**Prototype / academic project.** The public GitHub repository should currently be evaluated as a UI demonstration, not as a deployable fraud-detection system.
+## Public-repository scope
+
+### Included
+
+- Packaged front-end/UI prototype
+- Browser-based demonstration entry point inside the archive
+
+### Not currently published
+
+- Production backend services
+- Database implementation
+- Public API/service layer
+- Live transaction integrations
+- A trained/validated fraud-detection model
+- Production authentication/authorization
+- Deployment infrastructure
+
+## Why the distinction matters
+
+Fraud-detection software is a high-stakes system. A visual prototype, a predictive model, and a production fraud pipeline are different deliverables. This repository intentionally labels the current public artifact as a **UI prototype** so its capabilities are not overstated.
+
+## Recommended next repository step
+
+For stronger code review on GitHub, the packaged UI should eventually be extracted and committed as normal source files, for example:
+
+```text
+ui/
+├── index.html
+├── ...
+└── assets/
+```
+
+That would allow visitors to browse the implementation directly, make the technology stack auditable, and make a future GitHub Pages demo possible if the UI is fully static.
+
+Until those source files are exposed, this README does not guess the internal framework/library stack from the ZIP filename alone.
+
+## Project status
+
+**Prototype / academic project.** The current public artifact demonstrates the interface/product concept. Any future model/backend implementation should be documented separately with its dataset, methodology, evaluation, limitations, and security considerations.
 
 ## Author
 
-MD Alif Ziad Sarkar — CSE, American International University-Bangladesh (AIUB)
+**MD Alif Ziad Sarkar**  
+BSc in Computer Science and Engineering, American International University-Bangladesh (AIUB)
